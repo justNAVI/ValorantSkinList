@@ -1,3 +1,22 @@
+@font-face {
+    font-family: "Valorant";
+    src: url("./VALORANT.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: "Valorant", sans-serif;
+}
+
+body {
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .navbar-brand img {
     width: 50px;
 }
@@ -8,4 +27,152 @@
 
 .navbar-color{
     background-color: #0f1724;
+}
+
+#main-title {
+    text-align: center;
+    margin: 15px 0 30px;
+    color:darkgrey;
+}
+
+/* home */
+
+#wishlist-table {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#wishlist-table thead {
+    color: #f24855;
+    background-color: #0f1724;
+}
+
+.bg-tbody {
+    color: dimgray;
+}
+
+.bg-tr {
+    color:darkgrey;
+}
+
+.col-id {
+    font-weight: bold;
+}
+
+.actions {
+    text-align: right;
+    width: 150px;
+}
+
+.actions i {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.check-icon {
+    color:darkgrey;
+    
+}
+
+.edit-icon {
+    color:darkgrey;
+    
+}
+
+.delete-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.delete-form {
+    display: inline-block;
+}
+
+.delete-icon {
+    color:darkgrey;
+    
+}
+
+.check-icon {
+    color:darkgrey;
+    
+}
+
+#empty-list-text {
+    text-align: center;
+}
+
+#msg {
+    color:darkgrey;
+    background-color: #0f1724;
+    border: 3px solid red;
+    padding: 10px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+/* SKINS INDIVIDUAIS */
+
+#view-wishlist-container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.cor {
+    color:darkgrey;
+}
+
+.bold {
+    color: #f24855;
+}
+
+#back-link-container {
+    display: block;
+    width: 500px;
+    margin: 30px auto 0;
+    
+    
+}
+
+#back-link {
+    border: 1px solid #0f1724;
+    color: #f24855;
+    border-radius: 100px;
+    padding: 5px;
+}
+
+.container {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.skin-image {
+    display: block;
+    width: 700px;
+    height: 700px;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* adc skin */
+
+.label-color {
+    color: darkgray;
+}
+
+#create-form,
+#edit-form {
+    max-width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
